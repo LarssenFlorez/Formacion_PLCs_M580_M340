@@ -99,11 +99,11 @@ Durante esta sesión se revisará:
 
 Todos los proyectos del curso deberán mantener esta organización:
 MAIN
-├── INIT (Inicialización de variables)
-├── LOGIC (Rutinas principales)
-├── ALARMS (Bloques de alarmas)
-├── COMMS (Protocolos de comunicación)
-└── UTILITIES (Funciones y librerías)
+- INIT (Inicialización de variables)
+- LOGIC (Rutinas principales)
+- ALARMS (Bloques de alarmas)
+- COMMS (Protocolos de comunicación)
+- UTILITIES (Funciones y librerías)
 
 ---
 
