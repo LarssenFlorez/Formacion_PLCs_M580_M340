@@ -25,27 +25,6 @@ El curso está orientado a **ingenieros con experiencia en IEC 61131-3** que bus
 
 ---
 
-## 🗂 Estructura del repositorio
-formacion_plc_m580/
-│
-├── sesion_01_intro_estandarizacion/
-├── sesion_02_programacion_avanzada/
-├── sesion_03_librerias_dfb_fb/
-├── sesion_04_integracion_csv/
-├── sesion_05_modbus_tcp_rtu/
-├── sesion_06_profinet_ethernet_ip/
-├── sesion_07_profibus_dp/
-├── sesion_08_dnp3_i/
-├── sesion_09_dnp3_ii/
-├── sesion_10_migracion_controlwave/
-├── sesion_11_simulacion_fallas/
-├── sesion_12_proyecto_integrador_1/
-├── sesion_13_proyecto_integrador_2/
-├── sesion_14_soporte_futuro/
-├── materiales/
-└── docs/
-
-
 Cada sesión incluye:
 - `README.md`: guía principal  
 - `/recursos/`: archivos de soporte (zrx, csv, diagramas)  
@@ -56,7 +35,7 @@ Cada sesión incluye:
 ## 📘 Requisitos
 - **EcoStruxure Control Expert V15 o superior**  
 - 2 PLC M580 con módulos de comunicación  
-- 2 laptops (Core i5 / Xeon, 16 GB RAM o más)  
+- 4 laptops (Minimo Core i5, 16 GB RAM o más)  
 - Switch local (Ethernet TCP/IP)  
 - Acceso a red local / Wi-Fi visitantes (para GitHub y diagnósticos)  
 
@@ -64,7 +43,7 @@ Cada sesión incluye:
 
 ## 👨‍🏫 Instructores
 **Instructor principal:** Andersson Larssen Flórez  
-**Apoyo técnico:** Jhon Anderson Arango Rodríguez (ENCERT S.A.S.)  
+**Apoyo técnico:** Ingeniero soporte EPM  
 
 ---
 
