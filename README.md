@@ -54,12 +54,6 @@ Incluye rotación de PLC por grupo (1-2 y 3-4).
 
 ---
 
-## 📦 Licencia
-Este material se distribuye bajo licencia **Creative Commons BY-NC-SA 4.0**  
-Libre uso académico, no comercial, con atribución y misma licencia.  
-
----
-
 > 💡 Desarrollado por **ENCERT S.A.S.** | Marinilla – Antioquia, Colombia  
 > Contacto: larssen.florez@gmail.com | +57 310 351 4582
 
