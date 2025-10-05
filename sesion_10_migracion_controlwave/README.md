@@ -49,6 +49,33 @@ Tomar una rutina ST típica de ControlWave (por ejemplo, monitoreo de presión y
 
 ---
 
-> 💡 **Nota complementaria:**  
-> Este tipo de migraciones será una de las actividades más frecuentes en los próximos años dentro del plan de transición tecnológica. Desarrollar una metodología clara y replicable desde ya, garantiza calidad, trazabilidad y agilidad para migrar múltiples estaciones.
+## 🔁 Paso a paso recomendado
 
+1. **Estudiar rutina ST original de ControlWave**  
+   Revisa la lógica línea por línea y comprende su función: entradas, salidas, condiciones, temporizadores, etc.
+
+2. **Identificar bloques funcionales (funciones repetibles)**  
+   Determina qué segmentos se pueden transformar en bloques DFB para reutilización.
+
+3. **Crear nuevos DFB/FB en Control Expert**  
+   Utiliza nombres significativos, define entradas/salidas y documenta claramente su propósito.
+
+4. **Migrar la lógica a ST en M580**  
+   Transcribe la lógica manteniendo estructura clara, con convenciones definidas (comentarios, alineación, variables normalizadas).
+
+5. **Migrar alarmas asociadas**  
+   Agrega condiciones de disparo, variables auxiliares y documentación.
+
+6. **Simular el comportamiento completo**  
+   Verifica que las variables cambian como se espera y que las alarmas se activan correctamente.
+
+7. **Probar en PLC real (si aplica)**  
+   Ejecuta la rutina migrada, valida entradas físicas y respuesta del sistema.
+
+8. **Documentar el proceso y subir al repositorio GitHub**  
+   Incluye bitácora, nombre del archivo final, versión, y comentarios clave en el código.
+
+---
+
+> 💡 **Consejo final:**  
+> Este módulo entrena en una de las tareas más críticas para los próximos años en la empresa. Cada bloque migrado correctamente hoy será parte de una librería robusta para futuras migraciones.
