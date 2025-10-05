@@ -33,6 +33,17 @@ Durante esta sesión se revisará:
 
 ---
 
+## ⚙️ Actividades prácticas
+
+| Actividad | Descripción | Tiempo |
+|------------|--------------|--------|
+| Introducción y objetivos | Contexto del curso, explicación de arquitectura y módulos | 1h |
+| Creación de proyecto base | Configuración CPU, bastidor y red | 1.5h |
+| Creación de tarea MAIN y test de comunicación | Lógica simple + compilación | 1h |
+| Documentación y sincronización en GitHub | Carga del proyecto base | 1h |
+
+---
+
 ## ⚙️ Creación del proyecto base paso a paso
 
 ### 🔹 Paso 1 – Crear un nuevo proyecto
@@ -108,17 +119,6 @@ Todos los proyectos del curso deberán mantener esta organización:
 
 ---
 
-## ⚙️ Actividades prácticas
-
-| Actividad | Descripción | Tiempo |
-|------------|--------------|--------|
-| Introducción y objetivos | Contexto del curso, explicación de arquitectura y módulos | 1h |
-| Creación de proyecto base | Configuración CPU, bastidor y red | 1.5h |
-| Creación de tarea MAIN y test de comunicación | Lógica simple + compilación | 1h |
-| Documentación y sincronización en GitHub | Carga del proyecto base | 1h |
-
----
-
 ## 🧩 Reto 1 – Proyecto Base Documentado
 
 **Meta:** crear un proyecto completamente funcional y documentado en ambos PLCs.
@@ -126,7 +126,6 @@ Todos los proyectos del curso deberán mantener esta organización:
 **Entregables:**
 - Proyecto `.zrx` operativo (CPU + módulos configurados).  
 - Captura de conexión exitosa con PLC físico o simulador.  
-- Archivo CSV con variables iniciales (`tags_base.csv`).  
 - Carpeta `Sesion_01` actualizada en el repositorio GitHub.  
 
 **Validación del instructor:**
