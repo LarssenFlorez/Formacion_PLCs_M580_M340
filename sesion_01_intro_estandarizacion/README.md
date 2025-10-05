@@ -98,7 +98,7 @@ Durante esta sesión se revisará:
 ## 🧩 Estructura del proyecto estándar
 
 Todos los proyectos del curso deberán mantener esta organización:
-MAIN
+- MAIN
 - INIT (Inicialización de variables)
 - LOGIC (Rutinas principales)
 - ALARMS (Bloques de alarmas)
