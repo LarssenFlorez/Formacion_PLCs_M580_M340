@@ -109,23 +109,9 @@ Indica que las variables de entrada/salida se asignarán automáticamente según
 Cada canal del módulo se direcciona directamente en base a su slot y posición dentro del bastidor.
 Por ejemplo:
 
-%I0.1.0.0 → Entrada digital 0 del módulo en el slot 1
-%Q0.2.0.3 → Salida digital 3 del módulo en el slot 2
+%I0.1.0 → Entrada digital 0 del módulo en el slot 1
+%Q0.2.3 → Salida digital 3 del módulo en el slot 2
 
-
-🔹 Ventajas:
-
-Más ligero y rápido de configurar.
-
-Ideal para proyectos simples o de entrenamiento donde no se usa un sistema de estructuras complejas.
-
-Muestra claramente la correspondencia entre el hardware físico y la variable en el software.
-
-🔹 Uso recomendado:
-
-Laboratorios o capacitaciones donde se desea enseñar la correspondencia directa entre el módulo físico y la dirección (%I / %Q).
-
-Pequeños proyectos con bajo nivel de documentación estructurada.
 
 🧩 2. I/O data type: Device DDT
 
@@ -145,28 +131,6 @@ Module_DI_1602.CH0.Value
 Module_DI_1602.CH1.Value
 Module_DI_1602.Diag
 Module_DI_1602.ChannelFault
-
-
-🔹 Ventajas:
-
-Alta legibilidad y documentación automática.
-
-Permite acceso a diagnóstico de canal, fallos, supervisión de línea y otros parámetros.
-
-Ideal para ingeniería modular, programación orientada a objetos y migraciones a M580.
-
-🔹 Uso recomendado:
-
-Proyectos medianos o grandes.
-
-Cuando se usa el PLC M580 con arquitectura distribuida (EIO).
-
-Para proyectos que integran diagnóstico avanzado o comunicación SCADA con tags descriptivos.
-
-🎓 En resumen para la capacitación
-Opción	Qué hace	Nivel	Ventajas principales	Uso recomendado
-Topological	Direcciona por slot físico (%I / %Q)	Básico	Rápido, directo y fácil de enseñar	Laboratorios, pruebas simples
-Device DDT	Crea estructura de datos con diagnóstico	Avanzado	Estandariza, facilita el mantenimiento, integra diagnósticos	Proyectos reales con M580, integración SCADA
 ---
 
 ### 🔹 Paso 5 – Compilar y simular
