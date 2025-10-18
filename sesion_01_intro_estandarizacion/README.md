@@ -50,12 +50,8 @@ Durante esta sesión se revisará:
 1. Abrir **EcoStruxure Control Expert**.  
 2. Ir a `File → New Project`.  
 3. Seleccionar:  
-   - **Family:** Modicon M580  
-   - **Template:** “Empty Project”  
-   - Asignar nombre:  
-     ```
-     M580_S01_BASE_[INICIALES]
-     ```
+   - **Family:** Modicon M580
+   - Seleccionar la CPU con la que se va a trabajar
 4. Confirmar con **OK**.
 
 ---
