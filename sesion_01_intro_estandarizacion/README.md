@@ -131,6 +131,7 @@ Module_DI_1602.CH0.Value
 Module_DI_1602.CH1.Value
 Module_DI_1602.Diag
 Module_DI_1602.ChannelFault
+
 ---
 
 ### 🔹 Paso 5 – Compilar y simular
