@@ -109,8 +109,8 @@ Indica que las variables de entrada/salida se asignarán automáticamente según
 Cada canal del módulo se direcciona directamente en base a su slot y posición dentro del bastidor.
 Por ejemplo:
 
-%I0.1.0.0 → Entrada digital 0 del módulo en el slot 1
-%Q0.2.0.3 → Salida digital 3 del módulo en el slot 2
+%I0.1.0 → Entrada digital 0 del módulo en el slot 1
+%Q0.2.0 → Salida digital 3 del módulo en el slot 2
 
 
 🔹 Ventajas:
