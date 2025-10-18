@@ -77,12 +77,13 @@ Durante esta sesión se revisará:
 ---
 
 ### 🔹 Paso 4 – Crear una tarea cíclica (MAIN)
-1. En el árbol del proyecto, expandir `Program → Tasks`.  
-2. Clic derecho → **New Periodic Task**.  
-3. Asignar nombre:
+1. En el árbol del proyecto, expandir `Program → Tasks  → Logic`.
+2. Clic derecho → **Logic**.
+   <img width="1091" height="522" alt="image" src="https://github.com/user-attachments/assets/88928141-f2f6-47a4-9786-06b4a2324c57" />  
+4. Asignar nombre:
    MAIN_TASK
    Cycle time: 100 ms
-4. Dentro de la tarea, crear un **POU (Program Organization Unit)**:
+5. Dentro de la tarea, crear un **POU (Program Organization Unit)**:
 - Tipo: **LD (Ladder Diagram)**  
 - Nombre: `MAIN`  
 - Agregar una simple instrucción para test:
