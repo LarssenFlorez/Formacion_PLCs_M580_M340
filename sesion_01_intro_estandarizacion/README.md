@@ -53,6 +53,7 @@ Durante esta sesión se revisará:
    - **Family:** Modicon M580
    - Seleccionar la CPU con la que se va a trabajar
 4. Confirmar con **OK**.
+<img width="1091" height="580" alt="image" src="https://github.com/user-attachments/assets/ba2c1649-9fa0-4ad1-8aa2-6e1d8036b5c1" />
 
 ---
 
@@ -65,6 +66,9 @@ Durante esta sesión se revisará:
    - **Slot 3:** BMXNOR0200H (Ethernet)
 3. Compilar la configuracion.
 
+<img width="1092" height="577" alt="image" src="https://github.com/user-attachments/assets/c300641f-6c80-468f-b4d2-1de18ff67498" />
+
+
 ---
 
 ### 🔹 Paso 3 – Configurar la red Ethernet
@@ -73,6 +77,7 @@ Durante esta sesión se revisará:
    192.168.10.10
    Subnet mask: 255.255.255.0
 3. Aplicar cambios y guardar.
+<img width="1091" height="576" alt="image" src="https://github.com/user-attachments/assets/6c756c00-5d87-4b95-a228-09551246ddaf" />
 
 ---
 
