@@ -59,10 +59,11 @@ Durante esta sesión se revisará:
 ### 🔹 Paso 2 – Configurar el bastidor y la CPU
 1. En el panel izquierdo (Project Browser), dar clic derecho en `Rack 0 → Insert Module` o doble click.  
 2. Agregar los siguientes módulos en orden:
-   - ** Validar la fuente preseleccionada poir el software y dado caso cambiarla por la que se tenga fisicamente**  en nuestro caso BMXCPS3500.  
+   - ** Validar la fuente preseleccionada poir el software y dado caso cambiarla por la que se tenga fisicamente**  en nuestro caso BMXCPS3500.
+   - Validar el Fireware de la CPU
    - **Slot 2:** BMXNOM0200 (Serial)  
    - **Slot 3:** BMXNOR0200H (Ethernet)
-3. Verificar que todos los módulos aparezcan **en verde (OK)** en el diagrama.
+3. Compilar la configuracion.
 
 ---
 
