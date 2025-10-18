@@ -60,7 +60,7 @@ Durante esta sesión se revisará:
 1. En el panel izquierdo (Project Browser), dar clic derecho en `Rack 0 → Insert Module` o doble click.  
 2. Agregar los siguientes módulos en orden:
    - ** Validar la fuente preseleccionada poir el software y dado caso cambiarla por la que se tenga fisicamente**  en nuestro caso BMXCPS3500.
-   - Validar el Fireware de la CPU
+   - Validar el Firmware de la CPU
    - **Slot 2:** BMXNOM0200 (Serial)  
    - **Slot 3:** BMXNOR0200H (Ethernet)
 3. Compilar la configuracion.
@@ -68,7 +68,7 @@ Durante esta sesión se revisará:
 ---
 
 ### 🔹 Paso 3 – Configurar la red Ethernet
-1. Seleccionar el módulo **BMXNOR0200H** → pestaña **Ethernet**.  
+1. Seleccionar (doble click) los puerto RJ45 de la CPU para abrir → pestaña **Ethernet**.  
 2. Asignar una IP local (por ejemplo):
    192.168.10.10
    Subnet mask: 255.255.255.0
