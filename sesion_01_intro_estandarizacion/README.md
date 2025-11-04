@@ -93,6 +93,7 @@ Durante esta sesión se revisará:
 - Agregar una instrucción para test:
   ```
   %Q0.0 := %I0.0;
+- Tipos de datos en SE
   ```
   <img width="1088" height="515" alt="image" src="https://github.com/user-attachments/assets/d47b1ebe-d97d-40f9-9eae-575b84d4ade6" />
   
@@ -163,11 +164,6 @@ Cuando se usa el PLC M580 con arquitectura distribuida (EIO).
 
 Para proyectos que integran diagnóstico avanzado o comunicación SCADA con tags descriptivos.
 
-🎓 En resumen para la capacitación
-Opción	Qué hace	Nivel	Ventajas principales	Uso recomendado
-Topological	Direcciona por slot físico (%I / %Q)	Básico	Rápido, directo y fácil de enseñar	Laboratorios, pruebas simples
-Device DDT	Crea estructura de datos con diagnóstico	Avanzado	Estandariza, facilita el mantenimiento, integra diagnósticos	Proyectos reales con M580, integración SCADA
----
 
 ### 🔹 Paso 5 – Compilar y simular
 1. Clic en **Build (F9)** → verificar que no existan errores.  
