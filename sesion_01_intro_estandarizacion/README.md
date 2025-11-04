@@ -87,7 +87,7 @@ Durante esta sesión se revisará:
    <img width="1091" height="522" alt="image" src="https://github.com/user-attachments/assets/88928141-f2f6-47a4-9786-06b4a2324c57" />  
 4. Asignar nombre:
    MAIN_TASK
-   Tipos de datos en SE
+   'Tipos de datos en SE'
 6. Dentro de la tarea, crear un **POU (Program Organization Unit)**:
 - Tipo: **LD (Ladder Diagram)**  
 - Nombre: `MAIN`  
