@@ -12,10 +12,8 @@ Esta sesión está enfocada en **pasar de la configuración base a la programaci
 - Diseño de rutinas principales y secundarias en **LD (Ladder Diagram)**.  
 - Implementación de bloques analógicos y digitales en **FBD (Function Block Diagram)**.  
 - Uso de **ST (Structured Text)** para cálculos y control avanzado.  
-- Creación de **multitareas** y segmentación lógica determinística.  
 - Documentación clara de bloques y variables.  
 
-💡 *Los participantes trabajarán en pares con los PLC M580, rotando entre grupos (1-2 / 3-4) en cada bloque.*
 
 ---
 
@@ -30,9 +28,7 @@ Esta sesión está enfocada en **pasar de la configuración base a la programaci
 
 ## 📘 Recursos para la sesión
 
-- Proyecto base de la Sesión 1 (`/recursos/plantilla_proyecto_base.zrx`).  
-- Librería inicial de bloques (`/recursos/libreria_inicial.stu`).  
-- Manual rápido IEC 61131-3 (handout en `/materiales/`).  
+- Proyecto base de la Sesión 1 (`/recursos/plantilla_proyecto_base.ZEF`).   
 - Carpeta `/imagenes/` para diagramas y ejemplos.  
 
 ---
@@ -41,17 +37,22 @@ Esta sesión está enfocada en **pasar de la configuración base a la programaci
 
 ### 🔹 Parte A (7:30 – 9:45)
 1. Abrir proyecto base de Sesión 1.  
-2. Crear **tarea MAIN_DIGITAL** con ciclo de 50 ms.  
-3. Programar entradas digitales en **LD** (ej: %I0.0 → %Q0.0).  
+2. Crear **tarea MAIN_DIGITAL**.  
+3. Programar entradas digitales en **LD** (ej: %I0.0.0 → %Q0.0.0) O (ej: %M100.0 → %Q0.0.0).  
 4. Documentar bloques y variables según estándar.  
 5. Compilar y descargar al PLC.  
+<img width="1423" height="357" alt="image" src="https://github.com/user-attachments/assets/f41c36ee-81dd-4ab9-96ef-0dde86bee07d" />
+
 
 ### 🔹 Parte B (10:00 – 12:00)
-1. Crear **tarea ANALOG** con ciclo de 100 ms.  
+1. Crear **tarea ANALOG**.  
 2. Programar bloques de lectura analógica en **FBD**.  
 3. Implementar cálculos en **ST** (por ejemplo, conversión de mA a unidades de ingeniería).  
 4. Realizar test unitario en PLC físico y capturar evidencias.  
 5. Subir cambios al repositorio GitHub en carpeta `Sesion_02`.
+<img width="1198" height="573" alt="image" src="https://github.com/user-attachments/assets/6012fdfc-6fd7-4b21-ac4b-c00757f47e39" />
+<img width="1682" height="740" alt="image" src="https://github.com/user-attachments/assets/40b91f4d-2d96-48d7-b1b0-d0d25a56977d" />
+
 
 ---
 
@@ -60,7 +61,7 @@ Esta sesión está enfocada en **pasar de la configuración base a la programaci
 **Meta:** tener la lógica digital y analógica funcionando de forma sincronizada en dos tareas separadas.
 
 **Entregables:**
-- Proyecto `.zrx` con:
+- Proyecto `.ZEF o .STU` con:
   - Tareas MAIN_DIGITAL y ANALOG creadas.
   - Bloques LD/FBD/ST funcionales.
 - Lista de variables actualizada en `.csv`.
