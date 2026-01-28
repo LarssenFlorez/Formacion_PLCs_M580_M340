@@ -13,8 +13,7 @@ Esta sesión se centra en el diseño profesional de **librerías de bloques func
 - Diseño de bloques digitales combinados (DFB_DigitalIO).
 - diseño de bloque de manejo dde alarmas (DFB_AlarmManager)   
 - Definición de parámetros, comentarios y versiones.  
-- Validación funcional en simulador y/o PLC físico.  
-- Estructura de carpetas y versionamiento en GitHub.
+- Validación funcional en simulador y/o PLC físico.
 
 
 ---
