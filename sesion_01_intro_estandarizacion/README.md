@@ -87,12 +87,14 @@ Durante esta sesión se revisará:
    <img width="1091" height="522" alt="image" src="https://github.com/user-attachments/assets/88928141-f2f6-47a4-9786-06b4a2324c57" />  
 4. Asignar nombre:
    MAIN_TASK
-5. Dentro de la tarea, crear un **POU (Program Organization Unit)**:
+   'Tipos de datos en SE'
+6. Dentro de la tarea, crear un **POU (Program Organization Unit)**:
 - Tipo: **LD (Ladder Diagram)**  
 - Nombre: `MAIN`  
 - Agregar una instrucción para test:
   ```
   %Q0.0 := %I0.0;
+
   ```
   <img width="1088" height="515" alt="image" src="https://github.com/user-attachments/assets/d47b1ebe-d97d-40f9-9eae-575b84d4ade6" />
   
@@ -109,9 +111,23 @@ Indica que las variables de entrada/salida se asignarán automáticamente según
 Cada canal del módulo se direcciona directamente en base a su slot y posición dentro del bastidor.
 Por ejemplo:
 
-%I0.1.0 → Entrada digital 0 del módulo en el slot 1
-%Q0.2.3 → Salida digital 3 del módulo en el slot 2
+%I0.1.0.0 → Entrada digital 0 del módulo en el slot 1
+%Q0.2.0.3 → Salida digital 3 del módulo en el slot 2
 
+
+🔹 Ventajas:
+
+Más ligero y rápido de configurar.
+
+Ideal para proyectos simples o de entrenamiento donde no se usa un sistema de estructuras complejas.
+
+Muestra claramente la correspondencia entre el hardware físico y la variable en el software.
+
+🔹 Uso recomendado:
+
+Laboratorios o capacitaciones donde se desea enseñar la correspondencia directa entre el módulo físico y la dirección (%I / %Q).
+
+Pequeños proyectos con bajo nivel de documentación estructurada.
 
 🧩 2. I/O data type: Device DDT
 
@@ -132,7 +148,23 @@ Module_DI_1602.CH1.Value
 Module_DI_1602.Diag
 Module_DI_1602.ChannelFault
 
----
+
+🔹 Ventajas:
+
+Alta legibilidad y documentación automática.
+
+Permite acceso a diagnóstico de canal, fallos, supervisión de línea y otros parámetros.
+
+Ideal para ingeniería modular, programación orientada a objetos y migraciones a M580.
+
+🔹 Uso recomendado:
+
+Proyectos medianos o grandes.
+
+Cuando se usa el PLC M580 con arquitectura distribuida (EIO).
+
+Para proyectos que integran diagnóstico avanzado o comunicación SCADA con tags descriptivos.
+
 
 ### 🔹 Paso 5 – Compilar y simular
 1. Clic en **Build (F9)** → verificar que no existan errores.  

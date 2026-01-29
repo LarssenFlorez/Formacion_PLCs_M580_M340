@@ -1,7 +1,7 @@
 # 🟨 Sesión 3 – Diseño de Librerías DFB/FB
 
 **Duración:** 4.5 horas (7:30 a.m. – 12:00 m)  
-**Objetivo:** Crear bloques reutilizables, documentados y versionados usando estructuras de programación estandarizadas en EcoStruxure Control Expert.
+**Objetivo:** Crear bloques reutilizables, documentados y versionados usando estructuras de programación estandarizadas en EcoStruxure Control Expert Classic.
 
 ---
 
@@ -10,13 +10,11 @@
 Esta sesión se centra en el diseño profesional de **librerías de bloques funcionales (DFB/FB)** que puedan ser integradas a cualquier proyecto de forma escalable y mantenible.
 
 - Creación de bloques analógicos estándar (ej. DFB_AnalogInput).  
-- Diseño de bloques digitales combinados (DFB_DigitalIO).  
-- Gestión básica de alarmas normalizadas (AlarmManager).  
+- Diseño de bloques digitales combinados (DFB_DigitalIO).
+- diseño de bloque de manejo dde alarmas (DFB_AlarmManager)   
 - Definición de parámetros, comentarios y versiones.  
-- Validación funcional en simulador y/o PLC físico.  
-- Estructura de carpetas y versionamiento en GitHub.
+- Validación funcional en simulador y/o PLC físico.
 
-💡 *Se sigue usando rotación por grupos (1-2 / 3-4) para uso efectivo de los PLCs físicos.*
 
 ---
 
@@ -31,11 +29,11 @@ Esta sesión se centra en el diseño profesional de **librerías de bloques func
 
 ## 📘 Recursos para la sesión
 
-- Proyecto base de Sesión 2 (`/recursos/proyecto_avanzado.zrx`)  
+- Proyecto base de Sesión 2 (`/recursos/proyecto_avanzado.stu`)  
 - Guía de diseño de DFBs (`/materiales/guia_bloques_dfb.pdf`)  
-- Plantilla de documentación técnica (`/recursos/plantilla_doc_bloques.docx`)  
 - Carpeta `/ejercicios/` con ejemplos de bloques previos.  
 - Carpeta `/imagenes/` para evidencias y capturas.
+- Generador de señales Fluke para prueba de señales analógicas.
 
 ---
 
@@ -53,7 +51,7 @@ Esta sesión se centra en el diseño profesional de **librerías de bloques func
 2. Agregar parámetros de activación manual y lógica inversa.  
 3. Diseñar bloque AlarmManager básico (detección + reset).  
 4. Probar secuencias de activación y validación de alarmas.  
-5. Integrar bloques a librería y exportar `.STU`.
+5. Integrar bloques a librería y exportar `.XDB`.
 
 ---
 

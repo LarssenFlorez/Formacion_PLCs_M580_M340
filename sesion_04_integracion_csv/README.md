@@ -11,12 +11,10 @@ Esta sesión explora el uso avanzado del asistente de importación/exportación 
 
 - Estructura de archivos `.CSV` para Control Expert  
 - Reglas de nomenclatura y consistencia  
-- Validación previa con Excel / VS Code / Notepad++  
+- Validación previa con Excel   
 - Importación de tags al proyecto  
-- Vinculación automática con bloques DFB diseñados en la sesión anterior  
 - Corrección de errores frecuentes (espacios, formatos, celdas vacías, duplicados)
 
-💡 *Se continúa con la estrategia de rotación entre grupos para uso práctico de los PLCs.*
 
 ---
 
@@ -25,7 +23,7 @@ Esta sesión explora el uso avanzado del asistente de importación/exportación 
 | Horario       | Grupo                         | Actividad                                  | Resultado esperado                      |
 |---------------|-------------------------------|--------------------------------------------|------------------------------------------|
 | 7:30 – 9:45   | Grupo 1-2 (PLC #1) / Grupo 3-4 (PLC #2) | **Generación y validación de CSV (50+ tags)** | Archivo estructurado y libre de errores |
-| 10:00 – 12:00 | Grupo 3-4 (PLC #1) / Grupo 1-2 (PLC #2) | **Importación al proyecto y vinculación con DFBs** | Proyecto operativo con todas las señales cargadas |
+| 10:00 – 12:00 | Grupo 3-4 (PLC #1) / Grupo 1-2 (PLC #2) | **Importación al proyecto** | Proyecto operativo con todas las señales cargadas |
 
 ---
 
@@ -34,7 +32,6 @@ Esta sesión explora el uso avanzado del asistente de importación/exportación 
 - Plantilla CSV con formato correcto (`/recursos/plantilla_csv_tanque.csv`)  
 - Proyecto de Sesión 3 con DFBs cargados (`/recursos/proyecto_con_libreria.stu`)  
 - Hoja de validación rápida (`/materiales/checklist_validacion_csv.xlsx`)  
-- Ejemplos de errores comunes (`/ejercicios/errores_frecuentes.csv`)  
 - Carpeta `/imagenes/` para capturas de prueba y validación
 
 ---
@@ -45,8 +42,8 @@ Esta sesión explora el uso avanzado del asistente de importación/exportación 
 
 1. Abrir plantilla base con 50 señales predefinidas.  
 2. Asignar nombres, tipos, comentarios y direcciones.  
-3. Validar sintaxis en Excel y VS Code.  
-4. Probar importación en proyecto simulado.  
+3. Validar sintaxis en Excel.
+4. Probar importación en proyecto.
 5. Revisar errores y corregir conflictos de duplicados o tipo de dato.
 
 ### 🔹 Parte B – Importación al proyecto y vinculación
